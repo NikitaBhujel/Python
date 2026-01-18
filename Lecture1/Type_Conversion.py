@@ -1,0 +1,11 @@
+a=10
+b=5
+print(type(a/5))
+print(a/b)
+ans=2+10.3
+print(ans)
+ans1=int(2+10.2)
+print(ans1,type(ans1))
+print(int("123"))
+val=bool(-10)
+print(val)

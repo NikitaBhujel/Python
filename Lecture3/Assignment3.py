@@ -1,4 +1,4 @@
-# Q1 Asktheuserforastringandcheckwhetheritisapalindromeornot.
+# Q1 Ask the user for a string and check whether it is a palindromeornot.
 
 '''
 s = 'Nikita'
@@ -61,13 +61,22 @@ print("Sorted list", merged)
 '''
 
 #Q4 Given a tuple of integers, create: A tuple of all even numbers and A tuple of all odd numbers
-
+'''
 Tup=(1,2,4,6,3,9)
-Tup1=()
-Tup2=()
+Odd=()
+Even=()
 for n in Tup:
     if(n%2==0):
         Tup1=Tup1+n
     else:
-        Tup2=Tup2+n
-        
+        seen.add(item)
+print("Elements that appear more than once:", duplicates)
+'''
+
+# Q10
+s = input("Enter a string: ")
+# Find unique characters using set
+unique_chars = set(s)
+print("Unique characters:", unique_chars)
+# Print the count of unique characters
+print("Number of unique characters:", len(unique_chars))

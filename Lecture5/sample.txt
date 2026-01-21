@@ -1,0 +1,4 @@
+Text to overwrite
+the complete data
+Python file
+Append mode
